@@ -19,9 +19,13 @@ const EXCEPT_SET = new Set([
     'package-lock.json',    // For Repositories
     'package.json',         // For Repositories
     'README.md',            // For Repositories
+    'README(KR).md',        // For Repositories
+    'README_ORG(EN).md',    // For Repositories
+    'README_ORG(KR).md',    // For Repositories
     'src',                  // For Repositories
     'tsconfig.json'         // For Repositories
 ]);
+
 
 export function getFolderList(fileName: string): string[] {
     

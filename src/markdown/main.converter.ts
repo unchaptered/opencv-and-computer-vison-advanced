@@ -9,7 +9,7 @@ function getFormatedFolder(folderName: string) {
 
     return formatedFolder.join(' ')
 }
-export function convertMarkdownFile(folderMap: Map<string, string[]>): string {
+export function convertMainMarkdownFile(folderMap: Map<string, string[]>): string {
     let markdown = `
 # Opencv and Computer Vision Master Class
 
