@@ -1,3 +1,5 @@
+import fs from 'fs';
+
 function getFormatedFolder(folderName: string) {
     // '1. Docker Core'
     // [ '1. ', 'Docker Core' ]
@@ -27,6 +29,8 @@ Learning about so many library for Computer Vision.
 - [ ] Style Trnasfer
 - [ ] GAN\n\n`;
 
+    const installMarkdown = fs.readFileSync('./INSTALLATION.md')?.toString();
+
     let chapMarkdown = '## Chapters \n\n We talked about Image & Video Processing with Deep Laerning.<br>If you want to know detailed chaptered, please check [this](./README.md#detailed-chapter) \n\n';
     let dtChapMarkdown = '### Detailed Chapter \n\n';
 
@@ -34,10 +38,10 @@ Learning about so many library for Computer Vision.
 
     const folderEntries = [...folderMap].sort();
     // console.log(folderEntries);
-    for (let idx = 0; idx < folderEntries.length; idx ++) {
+    for (let idx = 0; idx < folderEntries.length; idx++) {
 
         // '1. Docker Core'
-        const [ topFolder, secFolderList ] = folderEntries[idx];
+        const [topFolder, secFolderList] = folderEntries[idx];
 
         const folderName = getFormatedFolder(topFolder);
         const folderDirName = encodeURI(BASE_URL + topFolder) + '/README.md';
@@ -51,6 +55,7 @@ Learning about so many library for Computer Vision.
 
     }
 
+    markdown += installMarkdown;
     markdown += chapMarkdown + '\n';
     markdown += dtChapMarkdown;
 

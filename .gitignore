@@ -1,4 +1,5 @@
 node_modules/
+assets/
 dist/
 
 # Python from import 구문을 사용하면 생성되는 파일
@@ -21,3 +22,6 @@ CAT_DOGS/
 # 폴더 로고 링크
 
 desktop.ini
+
+# 이미지 파일
+source/

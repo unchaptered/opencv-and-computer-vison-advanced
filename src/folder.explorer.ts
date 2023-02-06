@@ -7,6 +7,7 @@ const EXCEPT_SET = new Set([
     '.gitignore',           // For Repositories
     '.DS_Store',            // For Repositories
     '.ipynb_checkpoints',   // For *_**_...
+    'assets',               // For model, configs
     'cfg',                  // For 8_Yolo_V3
     'model',                // For 8_Yolo_V3
     'videos',               // For 8_Yolo_V3
@@ -22,6 +23,7 @@ const EXCEPT_SET = new Set([
     'README(KR).md',        // For Repositories
     'README_ORG(EN).md',    // For Repositories
     'README_ORG(KR).md',    // For Repositories
+    'INSTALLATION.md',      // For Repositories
     'src',                  // For Repositories
     'tsconfig.json'         // For Repositories
 ]);
