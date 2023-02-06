@@ -14,7 +14,6 @@ export function convertSubdirMarkdownFile(foldername: string, filenameList: stri
         const formattedFilename = getFormatedFilename(filename);
 
         origin_markdown += `${idx + 1}. [${formattedFilename}](./${filename})\n`;
-        console.log(origin_markdown);
         
     }
 
