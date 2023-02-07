@@ -29,6 +29,7 @@ Learning about so many library for Computer Vision.
 - [ ] Style Trnasfer
 - [ ] GAN\n\n`;
 
+
     const installMarkdown = fs.readFileSync('./INSTALLATION.md')?.toString();
 
     let chapMarkdown = '## Chapters \n\n We talked about Image & Video Processing with Deep Laerning.<br>If you want to know detailed chaptered, please check [this](./README.md#detailed-chapter) \n\n';
@@ -52,6 +53,8 @@ Learning about so many library for Computer Vision.
         for (let jdx = 0; jdx < secFolderList.length; jdx++) {
             dtChapMarkdown += `   ${jdx + 1}. [${getFormatedFolder(secFolderList[jdx])}](${encodeURI(BASE_URL + topFolder + '/' + secFolderList[jdx])})\n`;
         }
+       
+        console.log(dtChapMarkdown);
 
     }
 

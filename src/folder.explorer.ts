@@ -25,7 +25,13 @@ const EXCEPT_SET = new Set([
     'README_ORG(KR).md',    // For Repositories
     'INSTALLATION.md',      // For Repositories
     'src',                  // For Repositories
-    'tsconfig.json'         // For Repositories
+    'tsconfig.json',        // For Repositories
+    '__MACOSX',                     // For ~/python/2_face_recognition
+    'yalefaces',                    // For ~/python/2_face_recognition
+    'jones_gabriel',                // For ~/python/2_face_recognition
+    'lbph_classifier.yml',          // For ~/python/2_face_recognition
+    'lbph_classifier_tunning.yml',  // For ~/python/2_face_recognition
+    'prac_lbph_classifier.pyml',    // For ~/python/2_face_recognition
 ]);
 
 
