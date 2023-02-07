@@ -57,8 +57,3 @@ conda install -c anaconda seaborn                       # https://anaconda.org/a
    3. [Face Recognition with Dlib, CNN and distance calculation.ipynb](./python/2_face_recognition/3_Face_Recognition_with_Dlib,_CNN_and_distance_calculation.ipynb)
    4. [Face Recognition Practice.ipynb](./python/2_face_recognition/4_Face_Recognition_Practice.ipynb)
    5. [Face Recognition Webcam.py](./python/2_face_recognition/5_Face_Recognition_Webcam.py)
-   6. [ MACOSX](./python/2_face_recognition/__MACOSX)
-   7. [classifier.yml](./python/2_face_recognition/lbph_classifier.yml)
-   8. [classifier tunning.yml](./python/2_face_recognition/lbph_classifier_tunning.yml)
-   9. [lbph classifier.pyml](./python/2_face_recognition/prac_lbph_classifier.pyml)
-   10. [](./python/2_face_recognition/yalefaces)
