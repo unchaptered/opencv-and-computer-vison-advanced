@@ -20,6 +20,6 @@
 ## 파일 리스트
 
 1. [이미지와 픽셀.md](./1_이미지와_픽셀.md)
-2. [Haaracascade 분류기.md](./2_Haaracascade_분류기.md)
-3. [HOG 분류기.md](./3_HOG_분류기.md)
-4. [LBPH 알고리즘.md](./4_LBPH_알고리즘.md)
+2. [Face Detection Haaracascade Classifier.md](./2_Face_Detection_Haaracascade_Classifier.md)
+3. [Face Detection HOG Classifier.md](./3_Face_Detection_HOG_Classifier.md)
+4. [Face Recognition LBPH Algorithm.md](./4_Face_Recognition_LBPH_Algorithm.md)
