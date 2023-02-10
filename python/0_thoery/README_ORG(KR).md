@@ -13,3 +13,9 @@
 ## 얼굴 인식
 
 1. [LBPH 알고리즘](./4_LBPH_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md) : Local Binary Patterns Histograms
+
+## 객체 추적
+
+1. [소개](./5_Object_Tracking.md)
+2. [KCF 알고리즘](./6_Object_Tracking_KCF.md) : Kernal Correlation Filters
+3. [CSRT 알고리즘](./7_Object_Tracking_CSRT.md) : Discriminative Correlation Filters with Channel and Spatial Reliability

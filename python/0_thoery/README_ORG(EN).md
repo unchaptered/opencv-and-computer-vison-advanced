@@ -13,3 +13,9 @@ This directory is contained by CS and theory knowledgement for learning Computer
 ## Face Recognition
 
 1. [LBPH Algorithm](./4_LBPH_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md) : Local Binary Patterns Histograms
+
+## Object Tracking
+
+1. [Introduce](./5_Object_Tracking.md)
+2. [KCF Algorithm](./6_Object_Tracking_KCF.md) : Kernal Correlation Filters
+3. [CSRT Algorithm](./7_Object_Tracking_CSRT.md) : Discriminative Correlation Filters with Channel and Spatial Reliability
