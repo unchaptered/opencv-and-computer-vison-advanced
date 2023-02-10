@@ -18,6 +18,7 @@ CAT_DOGS/
 *.png
 *.gif
 *.mp4
+!images/*
 
 # 폴더 로고 링크
 
