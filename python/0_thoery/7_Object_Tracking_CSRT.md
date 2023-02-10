@@ -4,6 +4,8 @@
 
 이 알고리즘은 [Object Tracking](./5_Object_Tracking.md)의 일종입니다.
 
+CSRT에 대한 [추가적인 내용](https://arxiv.org/pdf/1611.08461.pdf)도 한 번 확인해주세요.
+
 <br>
 
 이름은 채널 및 공간 신뢰도를 통한 구분 상관 필터라는 뜻입니다.<br>

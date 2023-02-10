@@ -2,6 +2,8 @@
 
 # Object Tracking 객체 추적
 
+Object Detection에 대한 [추가적인 내용](https://arxiv.org/abs/1409.7618)도 한 번 확인해주세요.
+
 Object Tracking과 Object Detection은 무었이 다를까요? <br>
 때때로, 두 용어를 같은 단어처럼 사용하는데, 주로 만들어진 알고리즘의 구현방법에 대한 **큰 차이점**이 존재합니다.
 
