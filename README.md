@@ -34,6 +34,7 @@ conda install -c anaconda seaborn                       # https://anaconda.org/a
 0. [thoery](./python/0_thoery/README.md)
 1. [face detection](./python/1_face_detection/README.md)
 2. [face recognition](./python/2_face_recognition/README.md)
+3. [object tracking](./python/3_object_tracking/README.md)
 
 ### Detailed Chapter 
 
@@ -42,6 +43,9 @@ conda install -c anaconda seaborn                       # https://anaconda.org/a
    2. [Face Detection Haaracascade Classifier.md](./python/0_thoery/2_Face_Detection_Haaracascade_Classifier.md)
    3. [Face Detection HOG Classifier.md](./python/0_thoery/3_Face_Detection_HOG_Classifier.md)
    4. [Face Recognition LBPH Algorithm.md](./python/0_thoery/4_Face_Recognition_LBPH_Algorithm.md)
+   5. [Object Tracking.md](./python/0_thoery/5_Object_Tracking.md)
+   6. [Object Tracking KCF.md](./python/0_thoery/6_Object_Tracking_KCF.md)
+   7. [Object Tracking CSRT.md](./python/0_thoery/7_Object_Tracking_CSRT.md)
 1. [face detection](./python/1_face_detection/README.md)
    1. [Face Detection with Haarcascade and OpenCV.ipynb](./python/1_face_detection/1_Face_Detection_with_Haarcascade_and_OpenCV.ipynb)
    2. [Eye Detection with Haarcascade and OpenCV.ipynb](./python/1_face_detection/2_Eye_Detection_with_Haarcascade_and_OpenCV.ipynb)
@@ -57,3 +61,7 @@ conda install -c anaconda seaborn                       # https://anaconda.org/a
    3. [Face Recognition with Dlib, CNN and distance calculation.ipynb](./python/2_face_recognition/3_Face_Recognition_with_Dlib,_CNN_and_distance_calculation.ipynb)
    4. [Face Recognition Practice.ipynb](./python/2_face_recognition/4_Face_Recognition_Practice.ipynb)
    5. [Face Recognition Webcam.py](./python/2_face_recognition/5_Face_Recognition_Webcam.py)
+3. [object tracking](./python/3_object_tracking/README.md)
+   1. [Object Tracking with KCF.ipynb](./python/3_object_tracking/1_Object_Tracking_with_KCF.ipynb)
+   2. [Object Tracking with CSRT.ipynb](./python/3_object_tracking/2_Object_Tracking_with_CSRT.ipynb)
+   3. [Object Tracking Practice.py](./python/3_object_tracking/3_Object_Tracking_Practice.py)
